@@ -1,0 +1,132 @@
+h2, h4, p {
+    text-align: center;
+}
+
+section ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+  
+section ul li {
+    text-align: left;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+nav {
+	padding: 0 1px; 
+	margin: 0;
+	font: bold 1em; 
+	background-color: #cee1eb;
+	width: 100%; 
+	border-bottom: 1px solid #CFE2F3;
+		}
+        
+nav ul {
+	text-align: center; 
+	margin: 0; 
+	padding-top: 3px; 
+	padding-bottom: 3px;
+}
+
+nav li {
+	display: inline; 
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+	
+nav a {
+	text-decoration: none;
+	margin: 0; 
+	padding: 2px 10px; 
+	border-top: 2px solid #fff;
+	border-right: 2px solid #aaa; 
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #aaa;
+}
+	
+nav a:link {
+	color: #000000;
+}
+	
+nav a:visited {
+	color: rgba(43,43,43,1.00);
+}
+	
+nav a:hover{
+	color: #FFF;
+	background-color: #90bad1;
+	text-decoration: none;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.col-sm-4 {
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #f0ebeb;
+	margin: 10px;
+	background-color: #f7f2f3;
+}
+
+.skills-section {
+    display: flex;  
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #f0ebeb;
+	margin: 10px;
+	background-color: #f7f2f3;
+    padding: 15px;
+}
+
+.skills ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.skills li {
+    text-align: left;
+}
+
+.column {
+    flex-direction: 1 1 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
